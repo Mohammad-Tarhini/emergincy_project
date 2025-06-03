@@ -1,0 +1,15 @@
+const mongoose=require('mongoose')
+const schema=mongoose.schema;
+
+const userSchema=schema({
+    fullname:{
+        type:String,
+    },
+    phoneNumber:{
+        type:Number,
+    },
+    password:{
+        type:String,
+    }
+
+})
